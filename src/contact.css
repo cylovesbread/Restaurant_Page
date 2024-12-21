@@ -1,0 +1,36 @@
+.contact-div {
+  background-color: #e4d9a4;
+  height: 100%;
+}
+
+.content-div {
+  display: grid;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: minmax(auto, 700px);
+  gap: 5px;
+}
+
+.title-contact-div {
+  background-color: #c7a848;
+  display: flex;
+  justify-content: center;
+}
+
+.title-contact-div p {
+  font-size: 20px;
+}
+
+.contact-content {
+  background-color: #c7a848;
+}
+
+.contact-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

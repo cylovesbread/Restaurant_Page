@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  gap: 15px;
+}
+
+p {
+  color: black;
+}
+
+#content {
+  grid-row: 2 / 3;
+  height: 100%;
+}
+
+header {
+  background-color: white;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: solid 2px #12333a;
+
+  border-radius: 10px;
+  height: 2rem;
+  width: 6rem;
+}
+
+button:hover {
+  background-color: #12333a;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+}

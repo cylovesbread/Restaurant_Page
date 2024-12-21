@@ -1,0 +1,48 @@
+.about-div {
+  background-color: #e4d9a4;
+  height: 100%;
+}
+
+.content-container {
+  display: grid;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  grid-template-rows: 1fr auto;
+  gap: 5px;
+}
+
+.title-about-div {
+  grid-row: 1 / 2;
+  background-color: #c7a848;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.title-about {
+  font-size: 20px;
+}
+
+.cards-container {
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: auto;
+  height: 40vh;
+  gap: 10px;
+}
+
+.cards-container div {
+  background-color: #c7a848;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cards-container div p {
+  margin: 20px;
+}
